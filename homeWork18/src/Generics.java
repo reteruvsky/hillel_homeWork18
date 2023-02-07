@@ -23,7 +23,6 @@ class Apple extends Fruit {
     public float getWeight() {
         return weight;
     }
-
 }
 
 class Orange extends Fruit {
@@ -32,5 +31,4 @@ class Orange extends Fruit {
     public float getWeight() {
         return weight;
     }
-
 }
