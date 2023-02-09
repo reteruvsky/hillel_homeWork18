@@ -1,9 +1,13 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Box<T extends Fruit> {
     private List<T> list = new ArrayList<>();
 
+    public List<T> toList(T[] list) {
+        return new ArrayList<>(Arrays.asList(list));
+    }
 
     public void addOneFruit(T fruit) {
         list.add(fruit);

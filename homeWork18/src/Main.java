@@ -4,9 +4,9 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        Fruit fruit = new Fruit();
-        Apple apple = new Apple();
-        Orange orange = new Orange();
+        Fruit fruit = new Fruit(0);
+        Apple apple = new Apple(1);
+        Orange orange = new Orange(1.5F);
 
         List<Fruit> fruitList = new ArrayList<>();
         fruitList.add(fruit);
@@ -22,3 +22,4 @@ public class Main {
         box.merge(fruitList);
     }
 }
+
